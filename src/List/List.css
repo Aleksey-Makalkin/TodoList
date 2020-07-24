@@ -1,0 +1,21 @@
+.List {
+    list-style: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+.List li {
+    position: relative;
+    right: 40px;
+    padding: 20px;
+    border: 1px solid rgb(90, 90, 90);
+    border-bottom: none;
+}
+
+.List li * {
+    display: inline-block;
+}
+
+.List li:last-child {
+    border-bottom: 1px solid rgb(90, 90, 90);
+}

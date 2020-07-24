@@ -1,0 +1,51 @@
+.Filter * {
+    display: inline;
+    font-size: 20px;
+    padding: 12px 20px;
+    border: 1px solid rgb(90, 90, 90);
+}
+
+.Filter {
+    display: inline;
+    position: relative;
+}
+
+.Filter :nth-child(1) {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.Filter :nth-child(2) {
+    border-left: none;
+    border-right: none;
+}
+
+.Filter :nth-child(3) {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+.Filter :nth-child(1), .Filter :nth-child(2), .Filter :nth-child(3) {
+    transition: all 0.4s ease;
+}
+
+.Filter :nth-child(1):hover, .Filter :nth-child(2):hover, .Filter :nth-child(3):hover {
+    background-color: rgb(90, 90, 90);
+    color: white;
+    cursor: pointer;
+}
+
+
+#active {
+    background-color: steelblue;
+    color: white;
+    border-color: steelblue;
+}
+
+#active:hover {
+    cursor: default;
+    background-color: steelblue;
+    color: white;
+    border-color: steelblue;
+}

@@ -1,0 +1,11 @@
+.Search {
+    display: inline;
+    padding: 12px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 20px;
+    outline: none;
+    margin-right: 3px;
+    width: 273px;
+}
